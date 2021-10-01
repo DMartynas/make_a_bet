@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\APIRequest;
 use Illuminate\Http\Request;
 
 class APIHandle extends Controller
@@ -9,11 +10,12 @@ class APIHandle extends Controller
     /**
      * Handle the incoming request.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param  App\Http\Requests\APIRequest;
      * @return \Illuminate\Http\Response
      */
-    public function __invoke(Request $request)
+    public function __invoke(APIRequest $request)
     {
-        //
+
+
     }
 }

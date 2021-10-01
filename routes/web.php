@@ -14,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::post('/api/bet', APIHandle::class);
+Route::post('/api/bet', APIHandle::class)->name('bet');
