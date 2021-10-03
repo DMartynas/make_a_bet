@@ -15,7 +15,6 @@ class APIHandle extends Controller
      */
     public function __invoke(APIRequest $request)
     {
-
-
+        return response()->json([]);
     }
 }

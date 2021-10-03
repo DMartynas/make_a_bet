@@ -125,6 +125,19 @@ return [
     'url' => 'The :attribute must be a valid URL.',
     'uuid' => 'The :attribute must be a valid UUID.',
 
+    'unknown_error' => 'Unknown error',
+    'invalid_structure' => 'Betslip structure mismatch',
+    'min_stake_amount' => 'Minimum stake amount is :attribute',
+    'max_stake_amount' => 'Maximum stake amount is :attribute',
+    'min_number_selections' => 'Minimum number of selections is :attribute',
+    'max_number_selections' => 'Maximum number of selections is :attribute',
+    'min_odds' => 'Minimum odds are :attribute',
+    'max_odds' => 'Maximum odds are :attribute',
+    'duplicate_selection' => 'Duplicate selection found',
+    'max_win_amount' => 'Maximum win amount is :attribute',
+    'previous_action' => 'Your previous action is not finished yet',
+    'insuficient_balance' => 'Insufficient balance',
+
     /*
     |--------------------------------------------------------------------------
     | Custom Validation Language Lines
